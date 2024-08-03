@@ -1,0 +1,228 @@
+.plat {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+}
+
+.formgroup {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 0 20px rgba(26, 26, 26, 0.1),
+        0 0 40px rgba(26, 26, 26, 0.1),
+        0 0 80px rgba(26, 26, 26, 0.1);
+    backdrop-filter: blur(15px);
+}
+
+.btn-box {
+    width: 100%;
+    display: flex;
+    justify-content: end;
+}
+
+.box-voice {
+    justify-content: space-around;
+}
+
+/* CSS */
+.button-74 {
+    background-color: #fbeee0;
+    border: 2px solid #422800;
+    border-radius: 30px;
+    box-shadow: #422800 4px 4px 0 0;
+    color: #422800;
+    cursor: pointer;
+    display: inline-block;
+    font-weight: 600;
+    font-size: 18px;
+    padding: 0 18px;
+    line-height: 50px;
+    text-align: center;
+    text-decoration: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+}
+
+.button-74:hover {
+    background-color: #fff;
+}
+
+.button-74:active {
+    box-shadow: #422800 2px 2px 0 0;
+    transform: translate(2px, 2px);
+}
+
+@media (min-width: 768px) {
+    .button-74 {
+        min-width: 120px;
+        padding: 0 25px;
+    }
+}
+
+label,
+input,
+textarea {
+    display: block;
+}
+
+textarea {
+    width: 500px;
+    border: none;
+    background-color: transparent;
+    border-radius: 20px;
+    outline: none;
+    padding: 10px;
+    font-family: 'Sniglet', cursive;
+    font-size: 1em;
+    color: #fbeee0;
+    transition: border 0.5s;
+    border: solid 3px #8e4b28;
+    -webkit-transition: border 0.5s;
+    -moz-transition: border 0.5s;
+    -o-transition: border 0.5s;
+    box-sizing: border-box;
+    margin: 20px 0px;
+}
+
+input:focus,
+textarea:focus {
+    border: solid 8px #8e4b28;
+}
+
+textarea {
+    height: 200px;
+    resize: none;
+    overflow: auto;
+}
+
+.massege {
+    font-size: large;
+    color: #fbeee0;
+}
+
+.main-content {
+    width: 500px;
+    border: none;
+    background-color: transparent;
+    border-radius: 20px;
+    outline: none;
+    padding: 10px;
+    font-family: 'Sniglet', cursive;
+    font-size: 1em;
+    color: #fbeee0;
+    transition: border 0.5s;
+    border: solid 3px #8e4b28;
+    -webkit-transition: border 0.5s;
+    -moz-transition: border 0.5s;
+    -o-transition: border 0.5s;
+    box-sizing: border-box;
+    margin: 20px 0px;
+    resize: none;
+    height: 200px;
+    overflow-y: scroll;
+    scrollbar-width: none;
+}
+
+@media screen and (max-width:520px) {
+    textarea {
+        width: 450px;
+    }
+
+    .main-content {
+        width: 450px;
+    }
+
+}
+
+@media screen and (max-width:470px) {
+    textarea {
+        width: 410px;
+    }
+
+    .main-content {
+        width: 410px;
+    }
+}
+
+@media screen and (max-width:420px) {
+    textarea {
+        width: 350px;
+    }
+
+    .main-content {
+        width: 350px;
+    }
+}
+
+@media screen and (max-width:370px) {
+    textarea {
+        width: 310px;
+    }
+
+    .main-content {
+        width: 310px;
+    }
+}
+
+@media screen and (max-width:320px) {
+    textarea {
+        width: 260px;
+    }
+
+    .main-content {
+        width: 260px;
+    }
+}
+
+.errorshow {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid #ff0303;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+    animation-name: erroranimat;
+    animation-duration: 3s ;
+    animation-iteration-count: infinite;
+}
+
+.masslab {
+    color: red;
+}
+
+@keyframes erroranimat {
+    0% {
+        border: 3px solid #ff0303;
+    }
+
+    75% {
+        border: 5px solid #ff0303;
+    }
+
+    100% {
+        border: 1px solid #ff0303;
+    }
+}
+.notes{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.setupspan{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+.notelink{
+    color: #fbeee0;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 6px 0;
+    text-decoration: none;
+}
